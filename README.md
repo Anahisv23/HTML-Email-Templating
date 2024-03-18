@@ -1,6 +1,6 @@
 # Tourism Maui Email 
 
-<h3>Tourism email to inform tourists of the activties and places to visit on their next trip to Maui, Hawaii</h3>
+<h3>Tourism email to inform tourists of the activities and places to visit on their next trip to Maui, Hawaii</h3>
 
 <p>Email Best Practices followed</p>
 <ul>
