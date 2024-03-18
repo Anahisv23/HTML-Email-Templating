@@ -17,6 +17,37 @@
     table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
     img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
 
+    @media (max-width: 480px) {
+
+      * {
+        box-sizing: border-box;
+        /* incorportates padding and border into elements total width */
+      }
+
+      table, tr, td {
+        width: 100%;
+        display: block;
+        /* ^ key to making sure everything stacks in mobile */
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .social-icons {
+        width: 30px;
+      }
+
+      .hana-image {
+        margin-bottom: 15px;
+      }
+
+      .display-none {
+        display: none;
+      }
+
+    }
+
 </style>
 
 </head>
@@ -30,9 +61,9 @@
             <td>
               <table width="800" border="0" cellspacing="0" cellpadding="10">
                 <tr>
-                	<td width="212">
+                	<td class="display-none" width="212">
                   </td>
-                  <td width="137"></td>
+                  <td class="display-none"  width="137"></td>
      						</tr>
               </table>
             </td>
@@ -93,7 +124,7 @@
                                 <tr>
                                   <td width="340">
                                     <br><br>
-                                    <img style="width: 400px; height: 250px" src="images/road-to-hana.jpeg" alt="Road to Hana">
+                                    <img class="hana-image" style="width: 400px; height: 250px" src="images/road-to-hana.jpeg" alt="Road to Hana">
                                   </td>
                                   <td width="30">
                                   </td>
@@ -142,8 +173,8 @@
                                    </td>
 
                                    <td width="140" valign="top">
-                                     <a href="https://www.linkedin.com/in/anahis-valenzuela/"><img border="0" src="images/icon-linkedin.png"></a>
-                                     <a href="https://anahis-valenzuela-portfolio.onrender.com/"><img style="width: 40px; height: 40px; margin-left: 10px;" border="0" src="images/briefcase.png"></a>
+                                     <a href="https://www.linkedin.com/in/anahis-valenzuela/"><img class="social-icons" border="0" src="images/icon-linkedin.png"></a>
+                                     <a href="https://anahis-valenzuela-portfolio.onrender.com/"><img  class="social-icons" style="width: 40px; height: 40px; margin-left: 10px;" border="0" src="images/briefcase.png"></a>
                                    </td>
                                   </tr>
                                 </table>
