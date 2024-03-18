@@ -10,4 +10,5 @@
   <li>Clear CTA</li>
   <li>Compelling copy</li>
   <li>Intentional layout and format</li>
+  <li>Responsive Design</li>
 </ul>
